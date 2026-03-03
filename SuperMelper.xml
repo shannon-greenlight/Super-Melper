@@ -1,0 +1,2532 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\shann\Dropbox\moog\Super Melper\SuperMelper.kicad_sch</source>
+    <date>2026-02-28T00:43:50-0800</date>
+    <tool>Eeschema 8.0.8</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>The Melper</title>
+        <company/>
+        <rev>1.0</rev>
+        <date/>
+        <source>SuperMelper.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Regulators/" tstamps="/1b07bbf5-6653-4773-8b07-a0da817c45e6/">
+      <title_block>
+        <title>Super Melper</title>
+        <company/>
+        <rev>1.0</rev>
+        <date/>
+        <source>regulators.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C7">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <description>Unpolarized capacitor, small symbol</description>
+      <fields>
+        <field name="Digi-Key Part">490-18214-1-ND</field>
+        <field name="LCSC Part #">C344022</field>
+        <field name="Sim.Device"/>
+        <field name="Sim.Pins"/>
+        <field name="LCSC Alt"/>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Digi-Key Part" value="490-18214-1-ND"/>
+      <property name="LCSC Part #" value="C344022"/>
+      <property name="Sim.Device" value=""/>
+      <property name="Sim.Pins" value=""/>
+      <property name="LCSC Alt" value=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="SuperMelper.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>82c181a6-e0b9-4278-a7d0-e156cf2851d4</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>100uF</value>
+      <footprint>Capacitor_SMD:CP_Elec_6.3x5.4_Nichicon</footprint>
+      <datasheet>https://www.rubycon.co.jp/wp-content/uploads/catalog-aluminum/YXJ.pdf</datasheet>
+      <description>Polarized capacitor, US symbol</description>
+      <fields>
+        <field name="Digi-Key Part">P15436CT-ND</field>
+        <field name="LCSC Part #">C264047</field>
+        <field name="Sim.Device"/>
+        <field name="Sim.Pins"/>
+        <field name="LCSC Alt">C2887276</field>
+        <field name="Footprint">Capacitor_SMD:CP_Elec_6.3x5.4_Nichicon</field>
+        <field name="Datasheet">https://www.rubycon.co.jp/wp-content/uploads/catalog-aluminum/YXJ.pdf</field>
+        <field name="Description">Polarized capacitor, US symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="Digi-Key Part" value="P15436CT-ND"/>
+      <property name="LCSC Part #" value="C264047"/>
+      <property name="Sim.Device" value=""/>
+      <property name="Sim.Pins" value=""/>
+      <property name="LCSC Alt" value="C2887276"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="SuperMelper.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="CP_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d96e2406-d955-44e4-9bed-19d005d507ed</tstamps>
+    </comp>
+    <comp ref="GR1">
+      <value>small_logo</value>
+      <footprint>panel:small_face</footprint>
+      <fields>
+        <field name="Sim.Device"/>
+        <field name="Sim.Pins"/>
+        <field name="LCSC Alt"/>
+        <field name="Footprint">panel:small_face</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="greenface-symbols" part="small_logo" description=""/>
+      <property name="Sim.Device" value=""/>
+      <property name="Sim.Pins" value=""/>
+      <property name="LCSC Alt" value=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="SuperMelper.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b4180bb0-8dc9-48ec-9931-26e9377a82e1</tstamps>
+    </comp>
+    <comp ref="GR2">
+      <value>Logo_Open_Hardware_Small</value>
+      <footprint>Symbol:OSHW-Logo_5.7x6mm_SilkScreen</footprint>
+      <fields>
+        <field name="Sim.Device"/>
+        <field name="Sim.Pins"/>
+        <field name="LCSC Alt"/>
+        <field name="Footprint">Symbol:OSHW-Logo_5.7x6mm_SilkScreen</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Graphic" part="Logo_Open_Hardware_Small" description="Open Hardware logo, small"/>
+      <property name="Sim.Device" value=""/>
+      <property name="Sim.Pins" value=""/>
+      <property name="LCSC Alt" value=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="SuperMelper.kicad_sch"/>
+      <property name="ki_keywords" value="Logo"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fd4d88ba-d2ee-4052-825b-32e4003c38f7</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_02x08_Odd_Even</value>
+      <footprint>greenface:PinHeaderShrouded_2x08_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Digi-Key Part">S9171-ND</field>
+        <field name="LCSC Part #">C7430313</field>
+        <field name="Sim.Device"/>
+        <field name="Sim.Pins"/>
+        <field name="LCSC Alt">C17699645</field>
+        <field name="Footprint">greenface:PinHeaderShrouded_2x08_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x08_Odd_Even" description="Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Digi-Key Part" value="S9171-ND"/>
+      <property name="LCSC Part #" value="C7430313"/>
+      <property name="Sim.Device" value=""/>
+      <property name="Sim.Pins" value=""/>
+      <property name="LCSC Alt" value="C17699645"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="SuperMelper.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_2x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>389f4b39-83b9-41dd-ac4d-706bf8723619</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_02x08_Odd_Even</value>
+      <footprint>greenface:PinHeaderShrouded_2x08_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Digi-Key Part">S9171-ND</field>
+        <field name="LCSC Part #">C7430313</field>
+        <field name="Sim.Device"/>
+        <field name="Sim.Pins"/>
+        <field name="LCSC Alt">C17699645</field>
+        <field name="Footprint">greenface:PinHeaderShrouded_2x08_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x08_Odd_Even" description="Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Digi-Key Part" value="S9171-ND"/>
+      <property name="LCSC Part #" value="C7430313"/>
+      <property name="Sim.Device" value=""/>
+      <property name="Sim.Pins" value=""/>
+      <property name="LCSC Alt" value="C17699645"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="SuperMelper.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_2x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b8e16f60-cf7a-442c-9536-5f2af8ffcced</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_02x08_Odd_Even</value>
+      <footprint>greenface:PinHeaderShrouded_2x08_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Digi-Key Part">S9171-ND</field>
+        <field name="LCSC Part #">C7430313</field>
+        <field name="Sim.Device"/>
+        <field name="Sim.Pins"/>
+        <field name="LCSC Alt">C17699645</field>
+        <field name="Footprint">greenface:PinHeaderShrouded_2x08_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x08_Odd_Even" description="Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Digi-Key Part" value="S9171-ND"/>
+      <property name="LCSC Part #" value="C7430313"/>
+      <property name="Sim.Device" value=""/>
+      <property name="Sim.Pins" value=""/>
+      <property name="LCSC Alt" value="C17699645"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="SuperMelper.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_2x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>43990297-22a0-4f30-9cdc-2e77b673b5a9</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_02x08_Odd_Even</value>
+      <footprint>greenface:PinHeaderShrouded_2x08_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Digi-Key Part">S9171-ND</field>
+        <field name="LCSC Part #">C7430313</field>
+        <field name="Sim.Device"/>
+        <field name="Sim.Pins"/>
+        <field name="LCSC Alt">C17699645</field>
+        <field name="Footprint">greenface:PinHeaderShrouded_2x08_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x08_Odd_Even" description="Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Digi-Key Part" value="S9171-ND"/>
+      <property name="LCSC Part #" value="C7430313"/>
+      <property name="Sim.Device" value=""/>
+      <property name="Sim.Pins" value=""/>
+      <property name="LCSC Alt" value="C17699645"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="SuperMelper.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_2x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>24b64ffb-7853-4419-8940-26e5b893d875</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_02x08_Odd_Even</value>
+      <footprint>greenface:PinHeaderShrouded_2x08_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Digi-Key Part">S9171-ND</field>
+        <field name="LCSC Part #">C7430313</field>
+        <field name="Sim.Device"/>
+        <field name="Sim.Pins"/>
+        <field name="LCSC Alt">C17699645</field>
+        <field name="Footprint">greenface:PinHeaderShrouded_2x08_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x08_Odd_Even" description="Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Digi-Key Part" value="S9171-ND"/>
+      <property name="LCSC Part #" value="C7430313"/>
+      <property name="Sim.Device" value=""/>
+      <property name="Sim.Pins" value=""/>
+      <property name="LCSC Alt" value="C17699645"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="SuperMelper.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_2x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ca3a152b-2f99-44f9-9542-f5235f06dbc8</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>Conn_02x08_Odd_Even</value>
+      <footprint>greenface:PinHeaderShrouded_2x08_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Digi-Key Part">S9171-ND</field>
+        <field name="LCSC Part #">C7430313</field>
+        <field name="Sim.Device"/>
+        <field name="Sim.Pins"/>
+        <field name="LCSC Alt">C17699645</field>
+        <field name="Footprint">greenface:PinHeaderShrouded_2x08_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x08_Odd_Even" description="Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Digi-Key Part" value="S9171-ND"/>
+      <property name="LCSC Part #" value="C7430313"/>
+      <property name="Sim.Device" value=""/>
+      <property name="Sim.Pins" value=""/>
+      <property name="LCSC Alt" value="C17699645"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="SuperMelper.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_2x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fc3943c0-562e-42ff-80b3-ee26a4c10e59</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>Conn_02x08_Odd_Even</value>
+      <footprint>greenface:PinHeaderShrouded_2x08_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Digi-Key Part">S9171-ND</field>
+        <field name="LCSC Part #">C7430313</field>
+        <field name="Sim.Device"/>
+        <field name="Sim.Pins"/>
+        <field name="LCSC Alt">C17699645</field>
+        <field name="Footprint">greenface:PinHeaderShrouded_2x08_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x08_Odd_Even" description="Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Digi-Key Part" value="S9171-ND"/>
+      <property name="LCSC Part #" value="C7430313"/>
+      <property name="Sim.Device" value=""/>
+      <property name="Sim.Pins" value=""/>
+      <property name="LCSC Alt" value="C17699645"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="SuperMelper.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_2x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9472fae8-fb46-4faf-a55b-98d739bff9db</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>Conn_02x08_Odd_Even</value>
+      <footprint>greenface:PinHeaderShrouded_2x08_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Digi-Key Part">S9171-ND</field>
+        <field name="LCSC Part #">C7430313</field>
+        <field name="Sim.Device"/>
+        <field name="Sim.Pins"/>
+        <field name="LCSC Alt">C17699645</field>
+        <field name="Footprint">greenface:PinHeaderShrouded_2x08_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x08_Odd_Even" description="Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Digi-Key Part" value="S9171-ND"/>
+      <property name="LCSC Part #" value="C7430313"/>
+      <property name="Sim.Device" value=""/>
+      <property name="Sim.Pins" value=""/>
+      <property name="LCSC Alt" value="C17699645"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="SuperMelper.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_2x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>720bead6-9d5b-43c2-9d53-de2544c8f35a</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>Conn_02x08_Odd_Even</value>
+      <footprint>greenface:PinHeaderShrouded_2x08_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Digi-Key Part">S9171-ND</field>
+        <field name="LCSC Part #">C7430313</field>
+        <field name="Sim.Device"/>
+        <field name="Sim.Pins"/>
+        <field name="LCSC Alt">C17699645</field>
+        <field name="Footprint">greenface:PinHeaderShrouded_2x08_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x08_Odd_Even" description="Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Digi-Key Part" value="S9171-ND"/>
+      <property name="LCSC Part #" value="C7430313"/>
+      <property name="Sim.Device" value=""/>
+      <property name="Sim.Pins" value=""/>
+      <property name="LCSC Alt" value="C17699645"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="SuperMelper.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_2x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>94670173-e718-4a7b-9616-5e89f7ed9a18</tstamps>
+    </comp>
+    <comp ref="J10">
+      <value>Conn_02x08_Odd_Even</value>
+      <footprint>greenface:PinHeaderShrouded_2x08_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Digi-Key Part">S9171-ND</field>
+        <field name="LCSC Part #">C7430313</field>
+        <field name="Sim.Device"/>
+        <field name="Sim.Pins"/>
+        <field name="LCSC Alt">C17699645</field>
+        <field name="Footprint">greenface:PinHeaderShrouded_2x08_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x08_Odd_Even" description="Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Digi-Key Part" value="S9171-ND"/>
+      <property name="LCSC Part #" value="C7430313"/>
+      <property name="Sim.Device" value=""/>
+      <property name="Sim.Pins" value=""/>
+      <property name="LCSC Alt" value="C17699645"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="SuperMelper.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_2x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>691e9ec3-a2b9-418d-8771-8a7d176c57e8</tstamps>
+    </comp>
+    <comp ref="J11">
+      <value>Conn_02x08_Odd_Even</value>
+      <footprint>greenface:PinHeaderShrouded_2x08_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Digi-Key Part">S9171-ND</field>
+        <field name="LCSC Part #">C7430313</field>
+        <field name="Sim.Device"/>
+        <field name="Sim.Pins"/>
+        <field name="LCSC Alt">C17699645</field>
+        <field name="Footprint">greenface:PinHeaderShrouded_2x08_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x08_Odd_Even" description="Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Digi-Key Part" value="S9171-ND"/>
+      <property name="LCSC Part #" value="C7430313"/>
+      <property name="Sim.Device" value=""/>
+      <property name="Sim.Pins" value=""/>
+      <property name="LCSC Alt" value="C17699645"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="SuperMelper.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_2x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b26847c2-f347-410d-a7b5-56ab2292b63e</tstamps>
+    </comp>
+    <comp ref="J12">
+      <value>Conn_02x08_Odd_Even</value>
+      <footprint>greenface:PinHeaderShrouded_2x08_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Digi-Key Part">S9171-ND</field>
+        <field name="LCSC Part #">C7430313</field>
+        <field name="Sim.Device"/>
+        <field name="Sim.Pins"/>
+        <field name="LCSC Alt">C17699645</field>
+        <field name="Footprint">greenface:PinHeaderShrouded_2x08_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x08_Odd_Even" description="Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Digi-Key Part" value="S9171-ND"/>
+      <property name="LCSC Part #" value="C7430313"/>
+      <property name="Sim.Device" value=""/>
+      <property name="Sim.Pins" value=""/>
+      <property name="LCSC Alt" value="C17699645"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="SuperMelper.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_2x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9b031ba8-38bc-4c7b-8795-9132f92b25d8</tstamps>
+    </comp>
+    <comp ref="J13">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Digi-Key Part">A1921-ND</field>
+        <field name="LCSC Part #">C86502</field>
+        <field name="Sim.Device"/>
+        <field name="Sim.Pins"/>
+        <field name="LCSC Alt"/>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Digi-Key Part" value="A1921-ND"/>
+      <property name="LCSC Part #" value="C86502"/>
+      <property name="Sim.Device" value=""/>
+      <property name="Sim.Pins" value=""/>
+      <property name="LCSC Alt" value=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="SuperMelper.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>63fa531a-9136-4e3d-84fc-1ae41a6d815f</tstamps>
+    </comp>
+    <comp ref="LED1">
+      <value>Red SMT LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <description>Light emitting diode, small symbol</description>
+      <fields>
+        <field name="LCSC Part #">C2286</field>
+        <field name="Sim.Device"/>
+        <field name="Sim.Pins"/>
+        <field name="LCSC Alt"/>
+        <field name="Digi-Key Part">160-1436-1-ND</field>
+        <field name="Footprint">LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description">Light emitting diode, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <property name="LCSC Part #" value="C2286"/>
+      <property name="Sim.Device" value=""/>
+      <property name="Sim.Pins" value=""/>
+      <property name="LCSC Alt" value=""/>
+      <property name="Digi-Key Part" value="160-1436-1-ND"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="SuperMelper.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode light-emitting-diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d2b8a9c1-d6e0-4a40-86f3-895f42086266</tstamps>
+    </comp>
+    <comp ref="LED2">
+      <value>Yellow SMT LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <description>Light emitting diode, small symbol</description>
+      <fields>
+        <field name="LCSC Part #">C72038</field>
+        <field name="Sim.Device"/>
+        <field name="Sim.Pins"/>
+        <field name="LCSC Alt"/>
+        <field name="Digi-Key Part">160-1437-1-ND</field>
+        <field name="Footprint">LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description">Light emitting diode, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <property name="LCSC Part #" value="C72038"/>
+      <property name="Sim.Device" value=""/>
+      <property name="Sim.Pins" value=""/>
+      <property name="LCSC Alt" value=""/>
+      <property name="Digi-Key Part" value="160-1437-1-ND"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="SuperMelper.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode light-emitting-diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4b1aef8d-f8f5-43a7-805d-7722ccf0bc05</tstamps>
+    </comp>
+    <comp ref="LED3">
+      <value>Blue SMT LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <description>Light emitting diode, small symbol</description>
+      <fields>
+        <field name="LCSC Part #">C2288</field>
+        <field name="Sim.Device"/>
+        <field name="Sim.Pins"/>
+        <field name="LCSC Alt"/>
+        <field name="Digi-Key Part">160-1837-1-ND</field>
+        <field name="Footprint">LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description">Light emitting diode, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <property name="LCSC Part #" value="C2288"/>
+      <property name="Sim.Device" value=""/>
+      <property name="Sim.Pins" value=""/>
+      <property name="LCSC Alt" value=""/>
+      <property name="Digi-Key Part" value="160-1837-1-ND"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="SuperMelper.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode light-emitting-diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1f6bd80c-82ed-41c1-9130-be150538d76c</tstamps>
+    </comp>
+    <comp ref="LED4">
+      <value>Blue SMT LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <description>Light emitting diode, small symbol</description>
+      <fields>
+        <field name="LCSC Part #">C2288</field>
+        <field name="Sim.Device"/>
+        <field name="Sim.Pins"/>
+        <field name="LCSC Alt"/>
+        <field name="Digi-Key Part">160-1837-1-ND</field>
+        <field name="Footprint">LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description">Light emitting diode, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <property name="LCSC Part #" value="C2288"/>
+      <property name="Sim.Device" value=""/>
+      <property name="Sim.Pins" value=""/>
+      <property name="LCSC Alt" value=""/>
+      <property name="Digi-Key Part" value="160-1837-1-ND"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="SuperMelper.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode light-emitting-diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>06e5c9a8-9301-4deb-9cbb-0cf157f0c850</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Digi-Key Part">311-10.0KHRCT-ND</field>
+        <field name="LCSC Part #">C25804</field>
+        <field name="Sim.Device"/>
+        <field name="Sim.Pins"/>
+        <field name="LCSC Alt"/>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Digi-Key Part" value="311-10.0KHRCT-ND"/>
+      <property name="LCSC Part #" value="C25804"/>
+      <property name="Sim.Device" value=""/>
+      <property name="Sim.Pins" value=""/>
+      <property name="LCSC Alt" value=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="SuperMelper.kicad_sch"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a8dccc38-b961-440c-b049-c49b742a9e52</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>4.7K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Digi-Key Part">311-4.70KHRCT-ND</field>
+        <field name="LCSC Part #">C23162 </field>
+        <field name="Sim.Device"/>
+        <field name="Sim.Pins"/>
+        <field name="LCSC Alt"/>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Digi-Key Part" value="311-4.70KHRCT-ND"/>
+      <property name="LCSC Part #" value="C23162 "/>
+      <property name="Sim.Device" value=""/>
+      <property name="Sim.Pins" value=""/>
+      <property name="LCSC Alt" value=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="SuperMelper.kicad_sch"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6bd6e3e5-09a1-47fe-8dda-35283554daae</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Digi-Key Part">311-10.0KHRCT-ND</field>
+        <field name="LCSC Part #">C25804</field>
+        <field name="Sim.Device"/>
+        <field name="Sim.Pins"/>
+        <field name="LCSC Alt"/>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Digi-Key Part" value="311-10.0KHRCT-ND"/>
+      <property name="LCSC Part #" value="C25804"/>
+      <property name="Sim.Device" value=""/>
+      <property name="Sim.Pins" value=""/>
+      <property name="LCSC Alt" value=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="SuperMelper.kicad_sch"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>efc05906-5544-4847-b5a7-fc1758017ed4</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Digi-Key Part">311-10.0KHRCT-ND</field>
+        <field name="LCSC Part #">C25804</field>
+        <field name="Sim.Device"/>
+        <field name="Sim.Pins"/>
+        <field name="LCSC Alt"/>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Digi-Key Part" value="311-10.0KHRCT-ND"/>
+      <property name="LCSC Part #" value="C25804"/>
+      <property name="Sim.Device" value=""/>
+      <property name="Sim.Pins" value=""/>
+      <property name="LCSC Alt" value=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="SuperMelper.kicad_sch"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5cb0902f-3707-4629-bbd5-efdc64298c21</tstamps>
+    </comp>
+    <comp ref="TP1">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Keystone_5005-5009_Compact</footprint>
+      <fields>
+        <field name="Digi-Key Part">36-5006-ND</field>
+        <field name="LCSC Part #">C238122</field>
+        <field name="Sim.Device"/>
+        <field name="Sim.Pins"/>
+        <field name="LCSC Alt"/>
+        <field name="Footprint">TestPoint:TestPoint_Keystone_5005-5009_Compact</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Digi-Key Part" value="36-5006-ND"/>
+      <property name="LCSC Part #" value="C238122"/>
+      <property name="Sim.Device" value=""/>
+      <property name="Sim.Pins" value=""/>
+      <property name="LCSC Alt" value=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="SuperMelper.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>46d42ec2-41a1-4900-9741-6b632d1e4aaf</tstamps>
+    </comp>
+    <comp ref="TP2">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
+      <fields>
+        <field name="Digi-Key Part"/>
+        <field name="Sim.Device"/>
+        <field name="Sim.Pins"/>
+        <field name="LCSC Alt"/>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D2.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Digi-Key Part" value=""/>
+      <property name="Sim.Device" value=""/>
+      <property name="Sim.Pins" value=""/>
+      <property name="LCSC Alt" value=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="SuperMelper.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5502c0bc-fe0c-4e2b-abdd-d0e80e73da9e</tstamps>
+    </comp>
+    <comp ref="TP3">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
+      <fields>
+        <field name="Digi-Key Part"/>
+        <field name="Sim.Device"/>
+        <field name="Sim.Pins"/>
+        <field name="LCSC Alt"/>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D2.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Digi-Key Part" value=""/>
+      <property name="Sim.Device" value=""/>
+      <property name="Sim.Pins" value=""/>
+      <property name="LCSC Alt" value=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="SuperMelper.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>49f302d6-4994-4f01-92f0-31e0fbacc77f</tstamps>
+    </comp>
+    <comp ref="TP4">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
+      <fields>
+        <field name="Digi-Key Part"/>
+        <field name="Sim.Device"/>
+        <field name="Sim.Pins"/>
+        <field name="LCSC Alt"/>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D2.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Digi-Key Part" value=""/>
+      <property name="Sim.Device" value=""/>
+      <property name="Sim.Pins" value=""/>
+      <property name="LCSC Alt" value=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="SuperMelper.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3be95d49-fa5e-46e3-bc11-69011cd6682b</tstamps>
+    </comp>
+    <comp ref="TP5">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
+      <fields>
+        <field name="Digi-Key Part"/>
+        <field name="Sim.Device"/>
+        <field name="Sim.Pins"/>
+        <field name="LCSC Alt"/>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D2.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Digi-Key Part" value=""/>
+      <property name="Sim.Device" value=""/>
+      <property name="Sim.Pins" value=""/>
+      <property name="LCSC Alt" value=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="SuperMelper.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>294fa1f5-cb08-41d4-a956-bde65b29683f</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>100uF</value>
+      <footprint>Capacitor_SMD:CP_Elec_6.3x5.4_Nichicon</footprint>
+      <datasheet>https://www.rubycon.co.jp/wp-content/uploads/catalog-aluminum/YXJ.pdf</datasheet>
+      <description>Polarized capacitor, US symbol</description>
+      <fields>
+        <field name="Digi-Key Part">P15436CT-ND</field>
+        <field name="LCSC Part #">C264047</field>
+        <field name="Sim.Device"/>
+        <field name="Sim.Pins"/>
+        <field name="LCSC Alt">C2887276</field>
+        <field name="Footprint">Capacitor_SMD:CP_Elec_6.3x5.4_Nichicon</field>
+        <field name="Datasheet">https://www.rubycon.co.jp/wp-content/uploads/catalog-aluminum/YXJ.pdf</field>
+        <field name="Description">Polarized capacitor, US symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="Digi-Key Part" value="P15436CT-ND"/>
+      <property name="LCSC Part #" value="C264047"/>
+      <property name="Sim.Device" value=""/>
+      <property name="Sim.Pins" value=""/>
+      <property name="LCSC Alt" value="C2887276"/>
+      <property name="Sheetname" value="Regulators"/>
+      <property name="Sheetfile" value="regulators.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="CP_*"/>
+      <sheetpath names="/Regulators/" tstamps="/1b07bbf5-6653-4773-8b07-a0da817c45e6/"/>
+      <tstamps>49ad6839-c952-4170-adae-bc51fb05fc4c</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Digi-Key Part">311-1344-1-ND</field>
+        <field name="LCSC Part #">C14663</field>
+        <field name="Sim.Device"/>
+        <field name="Sim.Pins"/>
+        <field name="LCSC Alt"/>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Digi-Key Part" value="311-1344-1-ND"/>
+      <property name="LCSC Part #" value="C14663"/>
+      <property name="Sim.Device" value=""/>
+      <property name="Sim.Pins" value=""/>
+      <property name="LCSC Alt" value=""/>
+      <property name="Sheetname" value="Regulators"/>
+      <property name="Sheetfile" value="regulators.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Regulators/" tstamps="/1b07bbf5-6653-4773-8b07-a0da817c45e6/"/>
+      <tstamps>508a5c46-eb0d-42c5-bb7f-b516f144de08</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>330pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Digi-Key Part">1276-1073-1-ND</field>
+        <field name="LCSC Part #">C1664</field>
+        <field name="Sim.Device"/>
+        <field name="Sim.Pins"/>
+        <field name="LCSC Alt"/>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Digi-Key Part" value="1276-1073-1-ND"/>
+      <property name="LCSC Part #" value="C1664"/>
+      <property name="Sim.Device" value=""/>
+      <property name="Sim.Pins" value=""/>
+      <property name="LCSC Alt" value=""/>
+      <property name="Sheetname" value="Regulators"/>
+      <property name="Sheetfile" value="regulators.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Regulators/" tstamps="/1b07bbf5-6653-4773-8b07-a0da817c45e6/"/>
+      <tstamps>43823f4c-d309-4ced-baa2-33b745b05fba</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Digi-Key Part">311-1344-1-ND</field>
+        <field name="LCSC Part #">C14663</field>
+        <field name="Sim.Device"/>
+        <field name="Sim.Pins"/>
+        <field name="LCSC Alt"/>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Digi-Key Part" value="311-1344-1-ND"/>
+      <property name="LCSC Part #" value="C14663"/>
+      <property name="Sim.Device" value=""/>
+      <property name="Sim.Pins" value=""/>
+      <property name="LCSC Alt" value=""/>
+      <property name="Sheetname" value="Regulators"/>
+      <property name="Sheetfile" value="regulators.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Regulators/" tstamps="/1b07bbf5-6653-4773-8b07-a0da817c45e6/"/>
+      <tstamps>25dea18b-b6b1-4d0e-b2d6-00e3f445bdc3</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>100uF</value>
+      <footprint>Capacitor_SMD:CP_Elec_6.3x5.4_Nichicon</footprint>
+      <datasheet>https://www.rubycon.co.jp/wp-content/uploads/catalog-aluminum/YXJ.pdf</datasheet>
+      <description>Polarized capacitor, US symbol</description>
+      <fields>
+        <field name="Digi-Key Part">P15436CT-ND</field>
+        <field name="LCSC Part #">C264047</field>
+        <field name="Sim.Device"/>
+        <field name="Sim.Pins"/>
+        <field name="LCSC Alt">C2887276</field>
+        <field name="Footprint">Capacitor_SMD:CP_Elec_6.3x5.4_Nichicon</field>
+        <field name="Datasheet">https://www.rubycon.co.jp/wp-content/uploads/catalog-aluminum/YXJ.pdf</field>
+        <field name="Description">Polarized capacitor, US symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="Digi-Key Part" value="P15436CT-ND"/>
+      <property name="LCSC Part #" value="C264047"/>
+      <property name="Sim.Device" value=""/>
+      <property name="Sim.Pins" value=""/>
+      <property name="LCSC Alt" value="C2887276"/>
+      <property name="Sheetname" value="Regulators"/>
+      <property name="Sheetfile" value="regulators.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="CP_*"/>
+      <sheetpath names="/Regulators/" tstamps="/1b07bbf5-6653-4773-8b07-a0da817c45e6/"/>
+      <tstamps>d2da2aa6-5fb7-4aa0-8a26-047f7ccf7bbc</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>330pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Digi-Key Part">1276-1073-1-ND</field>
+        <field name="LCSC Part #">C1664</field>
+        <field name="Sim.Device"/>
+        <field name="Sim.Pins"/>
+        <field name="LCSC Alt"/>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Digi-Key Part" value="1276-1073-1-ND"/>
+      <property name="LCSC Part #" value="C1664"/>
+      <property name="Sim.Device" value=""/>
+      <property name="Sim.Pins" value=""/>
+      <property name="LCSC Alt" value=""/>
+      <property name="Sheetname" value="Regulators"/>
+      <property name="Sheetfile" value="regulators.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Regulators/" tstamps="/1b07bbf5-6653-4773-8b07-a0da817c45e6/"/>
+      <tstamps>ed0e5408-0986-4215-8931-e005608eab47</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>1000uF</value>
+      <footprint>Capacitor_SMD:CP_Elec_10x12.6</footprint>
+      <datasheet>https://www.rubycon.co.jp/wp-content/uploads/catalog-aluminum/YXJ.pdf</datasheet>
+      <description>Polarized capacitor, US symbol</description>
+      <fields>
+        <field name="Digi-Key Part">10-EEH-ZS1E102UPCT-ND</field>
+        <field name="LCSC Part #">C6547400</field>
+        <field name="Sim.Device"/>
+        <field name="Sim.Pins"/>
+        <field name="LCSC Alt">C401766</field>
+        <field name="Footprint">Capacitor_SMD:CP_Elec_10x12.6</field>
+        <field name="Datasheet">https://www.rubycon.co.jp/wp-content/uploads/catalog-aluminum/YXJ.pdf</field>
+        <field name="Description">Polarized capacitor, US symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="Digi-Key Part" value="10-EEH-ZS1E102UPCT-ND"/>
+      <property name="LCSC Part #" value="C6547400"/>
+      <property name="Sim.Device" value=""/>
+      <property name="Sim.Pins" value=""/>
+      <property name="LCSC Alt" value="C401766"/>
+      <property name="Sheetname" value="Regulators"/>
+      <property name="Sheetfile" value="regulators.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="CP_*"/>
+      <sheetpath names="/Regulators/" tstamps="/1b07bbf5-6653-4773-8b07-a0da817c45e6/"/>
+      <tstamps>588cb099-7e26-4b79-af91-e8838ed12d93</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>100uF</value>
+      <footprint>Capacitor_SMD:CP_Elec_6.3x5.4_Nichicon</footprint>
+      <datasheet>https://www.rubycon.co.jp/wp-content/uploads/catalog-aluminum/YXJ.pdf</datasheet>
+      <description>Polarized capacitor, US symbol</description>
+      <fields>
+        <field name="Digi-Key Part">P15436CT-ND</field>
+        <field name="LCSC Part #">C264047</field>
+        <field name="Sim.Device"/>
+        <field name="Sim.Pins"/>
+        <field name="LCSC Alt">C2887276</field>
+        <field name="Footprint">Capacitor_SMD:CP_Elec_6.3x5.4_Nichicon</field>
+        <field name="Datasheet">https://www.rubycon.co.jp/wp-content/uploads/catalog-aluminum/YXJ.pdf</field>
+        <field name="Description">Polarized capacitor, US symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="Digi-Key Part" value="P15436CT-ND"/>
+      <property name="LCSC Part #" value="C264047"/>
+      <property name="Sim.Device" value=""/>
+      <property name="Sim.Pins" value=""/>
+      <property name="LCSC Alt" value="C2887276"/>
+      <property name="Sheetname" value="Regulators"/>
+      <property name="Sheetfile" value="regulators.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="CP_*"/>
+      <sheetpath names="/Regulators/" tstamps="/1b07bbf5-6653-4773-8b07-a0da817c45e6/"/>
+      <tstamps>2e2b5dac-fa58-44df-aa79-7aaacf4dd312</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>100uF</value>
+      <footprint>Capacitor_SMD:CP_Elec_6.3x5.4_Nichicon</footprint>
+      <datasheet>https://www.rubycon.co.jp/wp-content/uploads/catalog-aluminum/YXJ.pdf</datasheet>
+      <description>Polarized capacitor, US symbol</description>
+      <fields>
+        <field name="Digi-Key Part">P15436CT-ND</field>
+        <field name="LCSC Part #">C264047</field>
+        <field name="Sim.Device"/>
+        <field name="Sim.Pins"/>
+        <field name="LCSC Alt">C2887276</field>
+        <field name="Footprint">Capacitor_SMD:CP_Elec_6.3x5.4_Nichicon</field>
+        <field name="Datasheet">https://www.rubycon.co.jp/wp-content/uploads/catalog-aluminum/YXJ.pdf</field>
+        <field name="Description">Polarized capacitor, US symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="Digi-Key Part" value="P15436CT-ND"/>
+      <property name="LCSC Part #" value="C264047"/>
+      <property name="Sim.Device" value=""/>
+      <property name="Sim.Pins" value=""/>
+      <property name="LCSC Alt" value="C2887276"/>
+      <property name="Sheetname" value="Regulators"/>
+      <property name="Sheetfile" value="regulators.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="CP_*"/>
+      <sheetpath names="/Regulators/" tstamps="/1b07bbf5-6653-4773-8b07-a0da817c45e6/"/>
+      <tstamps>c67067df-8473-4161-af92-397f7e62082f</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>330pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Digi-Key Part">1276-1073-1-ND</field>
+        <field name="LCSC Part #">C1664</field>
+        <field name="Sim.Device"/>
+        <field name="Sim.Pins"/>
+        <field name="LCSC Alt"/>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Digi-Key Part" value="1276-1073-1-ND"/>
+      <property name="LCSC Part #" value="C1664"/>
+      <property name="Sim.Device" value=""/>
+      <property name="Sim.Pins" value=""/>
+      <property name="LCSC Alt" value=""/>
+      <property name="Sheetname" value="Regulators"/>
+      <property name="Sheetfile" value="regulators.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Regulators/" tstamps="/1b07bbf5-6653-4773-8b07-a0da817c45e6/"/>
+      <tstamps>c5a9f720-40fa-4e51-a785-33219ea3c154</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>1000uF</value>
+      <footprint>Capacitor_SMD:CP_Elec_10x12.6</footprint>
+      <datasheet>https://www.rubycon.co.jp/wp-content/uploads/catalog-aluminum/YXJ.pdf</datasheet>
+      <description>Polarized capacitor, US symbol</description>
+      <fields>
+        <field name="Digi-Key Part">10-EEH-ZS1E102UPCT-ND</field>
+        <field name="LCSC Part #">C6547400</field>
+        <field name="Sim.Device"/>
+        <field name="Sim.Pins"/>
+        <field name="LCSC Alt">C401766</field>
+        <field name="Footprint">Capacitor_SMD:CP_Elec_10x12.6</field>
+        <field name="Datasheet">https://www.rubycon.co.jp/wp-content/uploads/catalog-aluminum/YXJ.pdf</field>
+        <field name="Description">Polarized capacitor, US symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="Digi-Key Part" value="10-EEH-ZS1E102UPCT-ND"/>
+      <property name="LCSC Part #" value="C6547400"/>
+      <property name="Sim.Device" value=""/>
+      <property name="Sim.Pins" value=""/>
+      <property name="LCSC Alt" value="C401766"/>
+      <property name="Sheetname" value="Regulators"/>
+      <property name="Sheetfile" value="regulators.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="CP_*"/>
+      <sheetpath names="/Regulators/" tstamps="/1b07bbf5-6653-4773-8b07-a0da817c45e6/"/>
+      <tstamps>e2c392c2-0c50-4828-a006-03a52c07d7f2</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>1000uF</value>
+      <footprint>Capacitor_SMD:CP_Elec_10x12.6</footprint>
+      <datasheet>https://www.rubycon.co.jp/wp-content/uploads/catalog-aluminum/YXJ.pdf</datasheet>
+      <description>Polarized capacitor, US symbol</description>
+      <fields>
+        <field name="Digi-Key Part">10-EEH-ZS1E102UPCT-ND</field>
+        <field name="LCSC Part #">C6547400</field>
+        <field name="Sim.Device"/>
+        <field name="Sim.Pins"/>
+        <field name="LCSC Alt">C401766</field>
+        <field name="Footprint">Capacitor_SMD:CP_Elec_10x12.6</field>
+        <field name="Datasheet">https://www.rubycon.co.jp/wp-content/uploads/catalog-aluminum/YXJ.pdf</field>
+        <field name="Description">Polarized capacitor, US symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="Digi-Key Part" value="10-EEH-ZS1E102UPCT-ND"/>
+      <property name="LCSC Part #" value="C6547400"/>
+      <property name="Sim.Device" value=""/>
+      <property name="Sim.Pins" value=""/>
+      <property name="LCSC Alt" value="C401766"/>
+      <property name="Sheetname" value="Regulators"/>
+      <property name="Sheetfile" value="regulators.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="CP_*"/>
+      <sheetpath names="/Regulators/" tstamps="/1b07bbf5-6653-4773-8b07-a0da817c45e6/"/>
+      <tstamps>e90f8443-6ab4-4668-93b6-94ba2beebc6a</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>100uF</value>
+      <footprint>Capacitor_SMD:CP_Elec_6.3x5.4_Nichicon</footprint>
+      <datasheet>https://www.rubycon.co.jp/wp-content/uploads/catalog-aluminum/YXJ.pdf</datasheet>
+      <description>Polarized capacitor, US symbol</description>
+      <fields>
+        <field name="Digi-Key Part">P15436CT-ND</field>
+        <field name="LCSC Part #">C264047</field>
+        <field name="Sim.Device"/>
+        <field name="Sim.Pins"/>
+        <field name="LCSC Alt">C2887276</field>
+        <field name="Footprint">Capacitor_SMD:CP_Elec_6.3x5.4_Nichicon</field>
+        <field name="Datasheet">https://www.rubycon.co.jp/wp-content/uploads/catalog-aluminum/YXJ.pdf</field>
+        <field name="Description">Polarized capacitor, US symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="Digi-Key Part" value="P15436CT-ND"/>
+      <property name="LCSC Part #" value="C264047"/>
+      <property name="Sim.Device" value=""/>
+      <property name="Sim.Pins" value=""/>
+      <property name="LCSC Alt" value="C2887276"/>
+      <property name="Sheetname" value="Regulators"/>
+      <property name="Sheetfile" value="regulators.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="CP_*"/>
+      <sheetpath names="/Regulators/" tstamps="/1b07bbf5-6653-4773-8b07-a0da817c45e6/"/>
+      <tstamps>5c1dedef-0336-4cac-899b-0023a45e6e74</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>1000uF</value>
+      <footprint>Capacitor_SMD:CP_Elec_10x12.6</footprint>
+      <datasheet>https://www.rubycon.co.jp/wp-content/uploads/catalog-aluminum/YXJ.pdf</datasheet>
+      <description>Polarized capacitor, US symbol</description>
+      <fields>
+        <field name="Digi-Key Part">10-EEH-ZS1E102UPCT-ND</field>
+        <field name="LCSC Part #">C6547400</field>
+        <field name="Sim.Device"/>
+        <field name="Sim.Pins"/>
+        <field name="LCSC Alt">C401766</field>
+        <field name="Footprint">Capacitor_SMD:CP_Elec_10x12.6</field>
+        <field name="Datasheet">https://www.rubycon.co.jp/wp-content/uploads/catalog-aluminum/YXJ.pdf</field>
+        <field name="Description">Polarized capacitor, US symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="Digi-Key Part" value="10-EEH-ZS1E102UPCT-ND"/>
+      <property name="LCSC Part #" value="C6547400"/>
+      <property name="Sim.Device" value=""/>
+      <property name="Sim.Pins" value=""/>
+      <property name="LCSC Alt" value="C401766"/>
+      <property name="Sheetname" value="Regulators"/>
+      <property name="Sheetfile" value="regulators.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="CP_*"/>
+      <sheetpath names="/Regulators/" tstamps="/1b07bbf5-6653-4773-8b07-a0da817c45e6/"/>
+      <tstamps>db707be2-7463-4b67-9adc-9acd3c40c3d0</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Digi-Key Part">311-1344-1-ND</field>
+        <field name="LCSC Part #">C14663</field>
+        <field name="Sim.Device"/>
+        <field name="Sim.Pins"/>
+        <field name="LCSC Alt"/>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Digi-Key Part" value="311-1344-1-ND"/>
+      <property name="LCSC Part #" value="C14663"/>
+      <property name="Sim.Device" value=""/>
+      <property name="Sim.Pins" value=""/>
+      <property name="LCSC Alt" value=""/>
+      <property name="Sheetname" value="Regulators"/>
+      <property name="Sheetfile" value="regulators.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Regulators/" tstamps="/1b07bbf5-6653-4773-8b07-a0da817c45e6/"/>
+      <tstamps>88cd86a5-9b6a-4934-973b-900e33760ed0</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>1N5819</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <description>Schottky diode</description>
+      <fields>
+        <field name="Digi-Key Part">1N5819HW-FDICT-ND</field>
+        <field name="LCSC Part #">C82544</field>
+        <field name="Sim.Device"/>
+        <field name="Sim.Pins"/>
+        <field name="LCSC Alt"/>
+        <field name="Footprint">Diode_SMD:D_SOD-123</field>
+        <field name="Datasheet"/>
+        <field name="Description">Schottky diode</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="Digi-Key Part" value="1N5819HW-FDICT-ND"/>
+      <property name="LCSC Part #" value="C82544"/>
+      <property name="Sim.Device" value=""/>
+      <property name="Sim.Pins" value=""/>
+      <property name="LCSC Alt" value=""/>
+      <property name="Sheetname" value="Regulators"/>
+      <property name="Sheetfile" value="regulators.kicad_sch"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/Regulators/" tstamps="/1b07bbf5-6653-4773-8b07-a0da817c45e6/"/>
+      <tstamps>4e975fe7-19e6-47d3-9d01-16d289c176d1</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>1N5819</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <description>Schottky diode</description>
+      <fields>
+        <field name="Digi-Key Part">1N5819HW-FDICT-ND</field>
+        <field name="LCSC Part #">C82544</field>
+        <field name="Sim.Device"/>
+        <field name="Sim.Pins"/>
+        <field name="LCSC Alt"/>
+        <field name="Footprint">Diode_SMD:D_SOD-123</field>
+        <field name="Datasheet"/>
+        <field name="Description">Schottky diode</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="Digi-Key Part" value="1N5819HW-FDICT-ND"/>
+      <property name="LCSC Part #" value="C82544"/>
+      <property name="Sim.Device" value=""/>
+      <property name="Sim.Pins" value=""/>
+      <property name="LCSC Alt" value=""/>
+      <property name="Sheetname" value="Regulators"/>
+      <property name="Sheetfile" value="regulators.kicad_sch"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/Regulators/" tstamps="/1b07bbf5-6653-4773-8b07-a0da817c45e6/"/>
+      <tstamps>d2d4702e-be40-46ec-b834-04b4f72ead14</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>1N5819</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <description>Schottky diode</description>
+      <fields>
+        <field name="Digi-Key Part">1N5819HW-FDICT-ND</field>
+        <field name="LCSC Part #">C82544</field>
+        <field name="Sim.Device"/>
+        <field name="Sim.Pins"/>
+        <field name="LCSC Alt"/>
+        <field name="Footprint">Diode_SMD:D_SOD-123</field>
+        <field name="Datasheet"/>
+        <field name="Description">Schottky diode</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="Digi-Key Part" value="1N5819HW-FDICT-ND"/>
+      <property name="LCSC Part #" value="C82544"/>
+      <property name="Sim.Device" value=""/>
+      <property name="Sim.Pins" value=""/>
+      <property name="LCSC Alt" value=""/>
+      <property name="Sheetname" value="Regulators"/>
+      <property name="Sheetfile" value="regulators.kicad_sch"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/Regulators/" tstamps="/1b07bbf5-6653-4773-8b07-a0da817c45e6/"/>
+      <tstamps>05587f02-8e1a-4506-b3b2-a495de1e66fc</tstamps>
+    </comp>
+    <comp ref="J14">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Digi-Key Part">SAM10844-ND</field>
+        <field name="LCSC Part #">C492401</field>
+        <field name="Sim.Device"/>
+        <field name="Sim.Pins"/>
+        <field name="LCSC Alt"/>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Digi-Key Part" value="SAM10844-ND"/>
+      <property name="LCSC Part #" value="C492401"/>
+      <property name="Sim.Device" value=""/>
+      <property name="Sim.Pins" value=""/>
+      <property name="LCSC Alt" value=""/>
+      <property name="Sheetname" value="Regulators"/>
+      <property name="Sheetfile" value="regulators.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/Regulators/" tstamps="/1b07bbf5-6653-4773-8b07-a0da817c45e6/"/>
+      <tstamps>f0d7b550-583e-460e-83f6-c3d96b8e6158</tstamps>
+    </comp>
+    <comp ref="J17">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Digi-Key Part">SAM10844-ND</field>
+        <field name="LCSC Part #">C492401</field>
+        <field name="Sim.Device"/>
+        <field name="Sim.Pins"/>
+        <field name="LCSC Alt"/>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Digi-Key Part" value="SAM10844-ND"/>
+      <property name="LCSC Part #" value="C492401"/>
+      <property name="Sim.Device" value=""/>
+      <property name="Sim.Pins" value=""/>
+      <property name="LCSC Alt" value=""/>
+      <property name="Sheetname" value="Regulators"/>
+      <property name="Sheetfile" value="regulators.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/Regulators/" tstamps="/1b07bbf5-6653-4773-8b07-a0da817c45e6/"/>
+      <tstamps>25bfd76a-85bb-4428-9e42-ffa3799095f7</tstamps>
+    </comp>
+    <comp ref="J18">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Digi-Key Part">SAM10844-ND</field>
+        <field name="LCSC Part #">C492401</field>
+        <field name="Sim.Device"/>
+        <field name="Sim.Pins"/>
+        <field name="LCSC Alt"/>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Digi-Key Part" value="SAM10844-ND"/>
+      <property name="LCSC Part #" value="C492401"/>
+      <property name="Sim.Device" value=""/>
+      <property name="Sim.Pins" value=""/>
+      <property name="LCSC Alt" value=""/>
+      <property name="Sheetname" value="Regulators"/>
+      <property name="Sheetfile" value="regulators.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/Regulators/" tstamps="/1b07bbf5-6653-4773-8b07-a0da817c45e6/"/>
+      <tstamps>1db5bd85-0dd5-4abc-bf71-bd555c305a54</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>100uH</value>
+      <footprint>Inductor_SMD:L_SXN_SMDRI127</footprint>
+      <description>Shielded power inductor</description>
+      <fields>
+        <field name="Digi-Key Part">541-IFDC5050HZER101MCT-ND</field>
+        <field name="LCSC Part #">C10150</field>
+        <field name="Sim.Device"/>
+        <field name="Sim.Pins"/>
+        <field name="LCSC Alt"/>
+        <field name="Footprint">Inductor_SMD:L_SXN_SMDRI127</field>
+        <field name="Datasheet"/>
+        <field name="Description">Shielded power inductor</field>
+      </fields>
+      <libsource lib="Device" part="L_Ferrite" description="Inductor with ferrite core"/>
+      <property name="Digi-Key Part" value="541-IFDC5050HZER101MCT-ND"/>
+      <property name="LCSC Part #" value="C10150"/>
+      <property name="Sim.Device" value=""/>
+      <property name="Sim.Pins" value=""/>
+      <property name="LCSC Alt" value=""/>
+      <property name="Sheetname" value="Regulators"/>
+      <property name="Sheetfile" value="regulators.kicad_sch"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
+      <sheetpath names="/Regulators/" tstamps="/1b07bbf5-6653-4773-8b07-a0da817c45e6/"/>
+      <tstamps>45bc7a76-c673-45e2-b186-aef828804f93</tstamps>
+    </comp>
+    <comp ref="L2">
+      <value>100uH</value>
+      <footprint>Inductor_SMD:L_SXN_SMDRI127</footprint>
+      <description>Shielded power inductor</description>
+      <fields>
+        <field name="Digi-Key Part">541-IFDC5050HZER101MCT-ND</field>
+        <field name="LCSC Part #">C10150</field>
+        <field name="Sim.Device"/>
+        <field name="Sim.Pins"/>
+        <field name="LCSC Alt"/>
+        <field name="Footprint">Inductor_SMD:L_SXN_SMDRI127</field>
+        <field name="Datasheet"/>
+        <field name="Description">Shielded power inductor</field>
+      </fields>
+      <libsource lib="Device" part="L_Ferrite" description="Inductor with ferrite core"/>
+      <property name="Digi-Key Part" value="541-IFDC5050HZER101MCT-ND"/>
+      <property name="LCSC Part #" value="C10150"/>
+      <property name="Sim.Device" value=""/>
+      <property name="Sim.Pins" value=""/>
+      <property name="LCSC Alt" value=""/>
+      <property name="Sheetname" value="Regulators"/>
+      <property name="Sheetfile" value="regulators.kicad_sch"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
+      <sheetpath names="/Regulators/" tstamps="/1b07bbf5-6653-4773-8b07-a0da817c45e6/"/>
+      <tstamps>e7ac4b90-1279-4633-b68b-f651b3b5fabb</tstamps>
+    </comp>
+    <comp ref="L3">
+      <value>1.8uH</value>
+      <footprint>Inductor_SMD:L_Sunlord_SWPA4012S</footprint>
+      <description>Inductor with ferrite core</description>
+      <fields>
+        <field name="Digi-Key Part">445-3181-1-ND</field>
+        <field name="LCSC Part #">C96867</field>
+        <field name="Sim.Device"/>
+        <field name="Sim.Pins"/>
+        <field name="LCSC Alt"/>
+        <field name="Footprint">Inductor_SMD:L_Sunlord_SWPA4012S</field>
+        <field name="Datasheet"/>
+        <field name="Description">Inductor with ferrite core</field>
+      </fields>
+      <libsource lib="Device" part="L_Ferrite" description="Inductor with ferrite core"/>
+      <property name="Digi-Key Part" value="445-3181-1-ND"/>
+      <property name="LCSC Part #" value="C96867"/>
+      <property name="Sim.Device" value=""/>
+      <property name="Sim.Pins" value=""/>
+      <property name="LCSC Alt" value=""/>
+      <property name="Sheetname" value="Regulators"/>
+      <property name="Sheetfile" value="regulators.kicad_sch"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
+      <sheetpath names="/Regulators/" tstamps="/1b07bbf5-6653-4773-8b07-a0da817c45e6/"/>
+      <tstamps>5f465244-6ad4-44fb-ac48-544c9a4ebcf8</tstamps>
+    </comp>
+    <comp ref="L4">
+      <value>1.8uH</value>
+      <footprint>Inductor_SMD:L_Sunlord_SWPA4012S</footprint>
+      <description>Inductor with ferrite core</description>
+      <fields>
+        <field name="Digi-Key Part">445-3181-1-ND</field>
+        <field name="LCSC Part #">C96867</field>
+        <field name="Sim.Device"/>
+        <field name="Sim.Pins"/>
+        <field name="LCSC Alt"/>
+        <field name="Footprint">Inductor_SMD:L_Sunlord_SWPA4012S</field>
+        <field name="Datasheet"/>
+        <field name="Description">Inductor with ferrite core</field>
+      </fields>
+      <libsource lib="Device" part="L_Ferrite" description="Inductor with ferrite core"/>
+      <property name="Digi-Key Part" value="445-3181-1-ND"/>
+      <property name="LCSC Part #" value="C96867"/>
+      <property name="Sim.Device" value=""/>
+      <property name="Sim.Pins" value=""/>
+      <property name="LCSC Alt" value=""/>
+      <property name="Sheetname" value="Regulators"/>
+      <property name="Sheetfile" value="regulators.kicad_sch"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
+      <sheetpath names="/Regulators/" tstamps="/1b07bbf5-6653-4773-8b07-a0da817c45e6/"/>
+      <tstamps>c9a2d710-ec86-42a7-93f0-f2016d3a85c1</tstamps>
+    </comp>
+    <comp ref="L5">
+      <value>1.8uH</value>
+      <footprint>Inductor_SMD:L_Sunlord_SWPA4012S</footprint>
+      <description>Inductor with ferrite core</description>
+      <fields>
+        <field name="Digi-Key Part">445-3181-1-ND</field>
+        <field name="LCSC Part #">C96867</field>
+        <field name="Sim.Device"/>
+        <field name="Sim.Pins"/>
+        <field name="LCSC Alt"/>
+        <field name="Footprint">Inductor_SMD:L_Sunlord_SWPA4012S</field>
+        <field name="Datasheet"/>
+        <field name="Description">Inductor with ferrite core</field>
+      </fields>
+      <libsource lib="Device" part="L_Ferrite" description="Inductor with ferrite core"/>
+      <property name="Digi-Key Part" value="445-3181-1-ND"/>
+      <property name="LCSC Part #" value="C96867"/>
+      <property name="Sim.Device" value=""/>
+      <property name="Sim.Pins" value=""/>
+      <property name="LCSC Alt" value=""/>
+      <property name="Sheetname" value="Regulators"/>
+      <property name="Sheetfile" value="regulators.kicad_sch"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
+      <sheetpath names="/Regulators/" tstamps="/1b07bbf5-6653-4773-8b07-a0da817c45e6/"/>
+      <tstamps>e427ee54-fef5-4dc5-a93a-295912a93b3e</tstamps>
+    </comp>
+    <comp ref="L6">
+      <value>100uH</value>
+      <footprint>Inductor_SMD:L_SXN_SMDRI127</footprint>
+      <description>Shielded power inductor</description>
+      <fields>
+        <field name="Digi-Key Part">541-IFDC5050HZER101MCT-ND</field>
+        <field name="LCSC Part #">C10150</field>
+        <field name="Sim.Device"/>
+        <field name="Sim.Pins"/>
+        <field name="LCSC Alt"/>
+        <field name="Footprint">Inductor_SMD:L_SXN_SMDRI127</field>
+        <field name="Datasheet"/>
+        <field name="Description">Shielded power inductor</field>
+      </fields>
+      <libsource lib="Device" part="L_Ferrite" description="Inductor with ferrite core"/>
+      <property name="Digi-Key Part" value="541-IFDC5050HZER101MCT-ND"/>
+      <property name="LCSC Part #" value="C10150"/>
+      <property name="Sim.Device" value=""/>
+      <property name="Sim.Pins" value=""/>
+      <property name="LCSC Alt" value=""/>
+      <property name="Sheetname" value="Regulators"/>
+      <property name="Sheetfile" value="regulators.kicad_sch"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
+      <sheetpath names="/Regulators/" tstamps="/1b07bbf5-6653-4773-8b07-a0da817c45e6/"/>
+      <tstamps>94cdeae7-62be-4f81-80f1-85d9d38cbb58</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Digi-Key Part">311-1.00KHRCT-ND</field>
+        <field name="LCSC Part #">C21190</field>
+        <field name="Sim.Device"/>
+        <field name="Sim.Pins"/>
+        <field name="LCSC Alt"/>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Digi-Key Part" value="311-1.00KHRCT-ND"/>
+      <property name="LCSC Part #" value="C21190"/>
+      <property name="Sim.Device" value=""/>
+      <property name="Sim.Pins" value=""/>
+      <property name="LCSC Alt" value=""/>
+      <property name="Sheetname" value="Regulators"/>
+      <property name="Sheetfile" value="regulators.kicad_sch"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Regulators/" tstamps="/1b07bbf5-6653-4773-8b07-a0da817c45e6/"/>
+      <tstamps>d6e114b0-8288-4b32-944a-4303a9a98a1c</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>8.66K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Digi-Key Part">311-8.66KHRCT-ND</field>
+        <field name="LCSC Part #">C3000724</field>
+        <field name="Sim.Device"/>
+        <field name="Sim.Pins"/>
+        <field name="LCSC Alt"/>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Digi-Key Part" value="311-8.66KHRCT-ND"/>
+      <property name="LCSC Part #" value="C3000724"/>
+      <property name="Sim.Device" value=""/>
+      <property name="Sim.Pins" value=""/>
+      <property name="LCSC Alt" value=""/>
+      <property name="Sheetname" value="Regulators"/>
+      <property name="Sheetfile" value="regulators.kicad_sch"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Regulators/" tstamps="/1b07bbf5-6653-4773-8b07-a0da817c45e6/"/>
+      <tstamps>739a4ee4-49d2-4271-ad0d-4a09c8de5775</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>.33</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Digi-Key Part">273-KDV06FR330ETCT-ND</field>
+        <field name="LCSC Part #">C4321766</field>
+        <field name="Sim.Device"/>
+        <field name="Sim.Pins"/>
+        <field name="LCSC Alt"/>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Digi-Key Part" value="273-KDV06FR330ETCT-ND"/>
+      <property name="LCSC Part #" value="C4321766"/>
+      <property name="Sim.Device" value=""/>
+      <property name="Sim.Pins" value=""/>
+      <property name="LCSC Alt" value=""/>
+      <property name="Sheetname" value="Regulators"/>
+      <property name="Sheetfile" value="regulators.kicad_sch"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Regulators/" tstamps="/1b07bbf5-6653-4773-8b07-a0da817c45e6/"/>
+      <tstamps>805824de-94b3-4e92-9ee1-3ed2e9b07941</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>.33</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Digi-Key Part">273-KDV06FR330ETCT-ND</field>
+        <field name="LCSC Part #">C4321766</field>
+        <field name="Sim.Device"/>
+        <field name="Sim.Pins"/>
+        <field name="LCSC Alt"/>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Digi-Key Part" value="273-KDV06FR330ETCT-ND"/>
+      <property name="LCSC Part #" value="C4321766"/>
+      <property name="Sim.Device" value=""/>
+      <property name="Sim.Pins" value=""/>
+      <property name="LCSC Alt" value=""/>
+      <property name="Sheetname" value="Regulators"/>
+      <property name="Sheetfile" value="regulators.kicad_sch"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Regulators/" tstamps="/1b07bbf5-6653-4773-8b07-a0da817c45e6/"/>
+      <tstamps>0dfdee42-62ad-4088-8506-9b05df49cf1c</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Digi-Key Part">311-1.00KHRCT-ND</field>
+        <field name="LCSC Part #">C21190</field>
+        <field name="Sim.Device"/>
+        <field name="Sim.Pins"/>
+        <field name="LCSC Alt"/>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Digi-Key Part" value="311-1.00KHRCT-ND"/>
+      <property name="LCSC Part #" value="C21190"/>
+      <property name="Sim.Device" value=""/>
+      <property name="Sim.Pins" value=""/>
+      <property name="LCSC Alt" value=""/>
+      <property name="Sheetname" value="Regulators"/>
+      <property name="Sheetfile" value="regulators.kicad_sch"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Regulators/" tstamps="/1b07bbf5-6653-4773-8b07-a0da817c45e6/"/>
+      <tstamps>8e177ee7-0523-4cd3-b890-0ba5484c5645</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>3K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Digi-Key Part">311-3.00KHRCT-ND</field>
+        <field name="LCSC Part #">C4211</field>
+        <field name="Sim.Device"/>
+        <field name="Sim.Pins"/>
+        <field name="LCSC Alt"/>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Digi-Key Part" value="311-3.00KHRCT-ND"/>
+      <property name="LCSC Part #" value="C4211"/>
+      <property name="Sim.Device" value=""/>
+      <property name="Sim.Pins" value=""/>
+      <property name="LCSC Alt" value=""/>
+      <property name="Sheetname" value="Regulators"/>
+      <property name="Sheetfile" value="regulators.kicad_sch"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Regulators/" tstamps="/1b07bbf5-6653-4773-8b07-a0da817c45e6/"/>
+      <tstamps>371e6854-b2a4-42e5-8b85-1282e9f5417b</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>.33</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Digi-Key Part">273-KDV06FR330ETCT-ND</field>
+        <field name="LCSC Part #">C4321766</field>
+        <field name="Sim.Device"/>
+        <field name="Sim.Pins"/>
+        <field name="LCSC Alt"/>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Digi-Key Part" value="273-KDV06FR330ETCT-ND"/>
+      <property name="LCSC Part #" value="C4321766"/>
+      <property name="Sim.Device" value=""/>
+      <property name="Sim.Pins" value=""/>
+      <property name="LCSC Alt" value=""/>
+      <property name="Sheetname" value="Regulators"/>
+      <property name="Sheetfile" value="regulators.kicad_sch"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Regulators/" tstamps="/1b07bbf5-6653-4773-8b07-a0da817c45e6/"/>
+      <tstamps>68022e01-2d9e-424f-a122-90d25591ab4a</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Digi-Key Part">311-1.00KHRCT-ND</field>
+        <field name="LCSC Part #">C21190</field>
+        <field name="Sim.Device"/>
+        <field name="Sim.Pins"/>
+        <field name="LCSC Alt"/>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Digi-Key Part" value="311-1.00KHRCT-ND"/>
+      <property name="LCSC Part #" value="C21190"/>
+      <property name="Sim.Device" value=""/>
+      <property name="Sim.Pins" value=""/>
+      <property name="LCSC Alt" value=""/>
+      <property name="Sheetname" value="Regulators"/>
+      <property name="Sheetfile" value="regulators.kicad_sch"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Regulators/" tstamps="/1b07bbf5-6653-4773-8b07-a0da817c45e6/"/>
+      <tstamps>fdf154d1-fe82-4f93-9f9d-90923743de8d</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>8.66K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Digi-Key Part">311-8.66KHRCT-ND</field>
+        <field name="LCSC Part #">C3000724</field>
+        <field name="Sim.Device"/>
+        <field name="Sim.Pins"/>
+        <field name="LCSC Alt"/>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Digi-Key Part" value="311-8.66KHRCT-ND"/>
+      <property name="LCSC Part #" value="C3000724"/>
+      <property name="Sim.Device" value=""/>
+      <property name="Sim.Pins" value=""/>
+      <property name="LCSC Alt" value=""/>
+      <property name="Sheetname" value="Regulators"/>
+      <property name="Sheetfile" value="regulators.kicad_sch"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Regulators/" tstamps="/1b07bbf5-6653-4773-8b07-a0da817c45e6/"/>
+      <tstamps>720ff220-4fde-471d-b711-c2e9688bac03</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>MC34063AD</value>
+      <footprint>Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm_ThermalVias</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/MC34063A-D.PDF</datasheet>
+      <description>1.5A, step-up/down/inverting switching regulator, 3-40V Vin, 100kHz, SO-8</description>
+      <fields>
+        <field name="Digi-Key Part">MC34063ADR2GOSCT-ND</field>
+        <field name="LCSC Part #">C32078</field>
+        <field name="Sim.Device"/>
+        <field name="Sim.Pins"/>
+        <field name="LCSC Alt"/>
+        <field name="Footprint">Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm_ThermalVias</field>
+        <field name="Datasheet">http://www.onsemi.com/pub_link/Collateral/MC34063A-D.PDF</field>
+        <field name="Description">1.5A, step-up/down/inverting switching regulator, 3-40V Vin, 100kHz, SO-8</field>
+      </fields>
+      <libsource lib="greenface" part="MC34063AD" description="1.5A, step-up/down/inverting switching regulator, 3-40V Vin, 100kHz, SO-8"/>
+      <property name="Digi-Key Part" value="MC34063ADR2GOSCT-ND"/>
+      <property name="LCSC Part #" value="C32078"/>
+      <property name="Sim.Device" value=""/>
+      <property name="Sim.Pins" value=""/>
+      <property name="LCSC Alt" value=""/>
+      <property name="Sheetname" value="Regulators"/>
+      <property name="Sheetfile" value="regulators.kicad_sch"/>
+      <property name="ki_keywords" value="smps buck boost inverting"/>
+      <property name="ki_fp_filters" value="SOIC*3.9x4.9mm*P1.27mm*"/>
+      <sheetpath names="/Regulators/" tstamps="/1b07bbf5-6653-4773-8b07-a0da817c45e6/"/>
+      <tstamps>fb25311e-73e8-4077-8ce4-dc20c4aa3079</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>MC34063AD</value>
+      <footprint>Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm_ThermalVias</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/MC34063A-D.PDF</datasheet>
+      <description>1.5A, step-up/down/inverting switching regulator, 3-40V Vin, 100kHz, SO-8</description>
+      <fields>
+        <field name="Digi-Key Part">MC34063ADR2GOSCT-ND</field>
+        <field name="LCSC Part #">C32078</field>
+        <field name="Sim.Device"/>
+        <field name="Sim.Pins"/>
+        <field name="LCSC Alt"/>
+        <field name="Footprint">Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm_ThermalVias</field>
+        <field name="Datasheet">http://www.onsemi.com/pub_link/Collateral/MC34063A-D.PDF</field>
+        <field name="Description">1.5A, step-up/down/inverting switching regulator, 3-40V Vin, 100kHz, SO-8</field>
+      </fields>
+      <libsource lib="greenface" part="MC34063AD" description="1.5A, step-up/down/inverting switching regulator, 3-40V Vin, 100kHz, SO-8"/>
+      <property name="Digi-Key Part" value="MC34063ADR2GOSCT-ND"/>
+      <property name="LCSC Part #" value="C32078"/>
+      <property name="Sim.Device" value=""/>
+      <property name="Sim.Pins" value=""/>
+      <property name="LCSC Alt" value=""/>
+      <property name="Sheetname" value="Regulators"/>
+      <property name="Sheetfile" value="regulators.kicad_sch"/>
+      <property name="ki_keywords" value="smps buck boost inverting"/>
+      <property name="ki_fp_filters" value="SOIC*3.9x4.9mm*P1.27mm*"/>
+      <sheetpath names="/Regulators/" tstamps="/1b07bbf5-6653-4773-8b07-a0da817c45e6/"/>
+      <tstamps>cdf0ea45-3bf5-4d30-a0af-d62055eb9fda</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>MC34063AD</value>
+      <footprint>Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm_ThermalVias</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/MC34063A-D.PDF</datasheet>
+      <description>1.5A, step-up/down/inverting switching regulator, 3-40V Vin, 100kHz, SO-8</description>
+      <fields>
+        <field name="Digi-Key Part">MC34063ADR2GOSCT-ND</field>
+        <field name="LCSC Part #">C32078</field>
+        <field name="Sim.Device"/>
+        <field name="Sim.Pins"/>
+        <field name="LCSC Alt"/>
+        <field name="Footprint">Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm_ThermalVias</field>
+        <field name="Datasheet">http://www.onsemi.com/pub_link/Collateral/MC34063A-D.PDF</field>
+        <field name="Description">1.5A, step-up/down/inverting switching regulator, 3-40V Vin, 100kHz, SO-8</field>
+      </fields>
+      <libsource lib="" part="MC34063AD_1" description="1.5A, step-up/down/inverting switching regulator, 3-40V Vin, 100kHz, SO-8"/>
+      <property name="Digi-Key Part" value="MC34063ADR2GOSCT-ND"/>
+      <property name="LCSC Part #" value="C32078"/>
+      <property name="Sim.Device" value=""/>
+      <property name="Sim.Pins" value=""/>
+      <property name="LCSC Alt" value=""/>
+      <property name="Sheetname" value="Regulators"/>
+      <property name="Sheetfile" value="regulators.kicad_sch"/>
+      <property name="ki_keywords" value="smps buck boost inverting"/>
+      <property name="ki_fp_filters" value="SOIC*3.9x4.9mm*P1.27mm*"/>
+      <sheetpath names="/Regulators/" tstamps="/1b07bbf5-6653-4773-8b07-a0da817c45e6/"/>
+      <tstamps>dc0fa543-666d-4650-86d7-856b023b272d</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="MC34063AD_1">
+      <description>1.5A, step-up/down/inverting switching regulator, 3-40V Vin, 100kHz, SO-8</description>
+      <docs>http://www.onsemi.com/pub_link/Collateral/MC34063A-D.PDF</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MC34063AD</field>
+        <field name="Footprint">Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm_ThermalVias</field>
+        <field name="Datasheet">http://www.onsemi.com/pub_link/Collateral/MC34063A-D.PDF</field>
+        <field name="Description">1.5A, step-up/down/inverting switching regulator, 3-40V Vin, 100kHz, SO-8</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SwC" type="open_collector"/>
+        <pin num="2" name="SwE" type="open_emitter"/>
+        <pin num="3" name="TC" type="passive"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="Vfb" type="input"/>
+        <pin num="6" name="Vin" type="power_in"/>
+        <pin num="7" name="Ipk" type="input"/>
+        <pin num="8" name="DC" type="open_collector"/>
+        <pin num="9" name="Pad" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x08_Odd_Even">
+      <description>Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x08_Odd_Even</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized_US">
+      <description>Polarized capacitor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized_US</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Polarized capacitor, US symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Schottky diode</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED_Small">
+      <description>Light emitting diode, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_Small</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Light emitting diode, small symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L_Ferrite">
+      <description>Inductor with ferrite core</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_Ferrite</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Inductor with ferrite core</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small_US">
+      <description>Resistor, small US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small_US</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor, small US symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Graphic" part="Logo_Open_Hardware_Small">
+      <description>Open Hardware logo, small</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">#LOGO</field>
+        <field name="Value">Logo_Open_Hardware_Small</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Open Hardware logo, small</field>
+      </fields>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole with connection</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="greenface" part="MC34063AD">
+      <description>1.5A, step-up/down/inverting switching regulator, 3-40V Vin, 100kHz, SO-8</description>
+      <docs>http://www.onsemi.com/pub_link/Collateral/MC34063A-D.PDF</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MC34063AD</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet">http://www.onsemi.com/pub_link/Collateral/MC34063A-D.PDF</field>
+        <field name="Description">1.5A, step-up/down/inverting switching regulator, 3-40V Vin, 100kHz, SO-8</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SwC" type="open_collector"/>
+        <pin num="2" name="SwE" type="open_emitter"/>
+        <pin num="3" name="TC" type="passive"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="Vfb" type="input"/>
+        <pin num="6" name="Vin" type="power_in"/>
+        <pin num="7" name="Ipk" type="input"/>
+        <pin num="8" name="DC" type="open_collector"/>
+        <pin num="9" name="Pad" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="greenface-symbols" part="small_logo">
+      <fields>
+        <field name="Reference">GR</field>
+        <field name="Value">small_logo</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\8.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\8.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\8.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Graphic">
+      <uri>C:\Program Files\KiCad\8.0\share\kicad\symbols\/Graphic.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\8.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="greenface">
+      <uri>C:/Users/shann/Dropbox/KiCAD/greenface-symbols/greenface-symbols.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="J1" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="J1" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="J10" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="J10" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="J11" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="J11" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="J12" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="J12" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="J2" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="J2" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="J3" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="J3" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="J4" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="J4" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="J5" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="J5" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="J6" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="J6" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="J7" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="J7" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="J8" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="J8" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="J9" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="J9" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="L4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="2" name="+12V">
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="J1" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J1" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="J10" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J10" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="J11" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J11" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="J12" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J12" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="J13" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J14" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J17" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J18" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J2" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="J3" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J3" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="J4" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J4" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="J5" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J5" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="J6" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J6" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="J7" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J7" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="J8" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J8" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="J9" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J9" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="3" name="-12Va">
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J10" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J10" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J9" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="L3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="TP4" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="4" name="-12Vb">
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="J11" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J11" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J12" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J12" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="L5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="TP5" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="5" name="CV">
+      <node ref="J1" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="J1" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="J10" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="J10" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="J11" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="J11" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="J12" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="J12" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="J2" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="J2" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="J3" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="J3" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="J4" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="J4" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="J5" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="J5" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="J6" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="J6" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="J7" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="J7" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="J8" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="J8" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="J9" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="J9" pin="14" pinfunction="Pin_14" pintype="passive"/>
+    </net>
+    <net code="6" name="GATE">
+      <node ref="J1" pin="15" pinfunction="Pin_15" pintype="passive"/>
+      <node ref="J1" pin="16" pinfunction="Pin_16" pintype="passive"/>
+      <node ref="J10" pin="15" pinfunction="Pin_15" pintype="passive"/>
+      <node ref="J10" pin="16" pinfunction="Pin_16" pintype="passive"/>
+      <node ref="J11" pin="15" pinfunction="Pin_15" pintype="passive"/>
+      <node ref="J11" pin="16" pinfunction="Pin_16" pintype="passive"/>
+      <node ref="J12" pin="15" pinfunction="Pin_15" pintype="passive"/>
+      <node ref="J12" pin="16" pinfunction="Pin_16" pintype="passive"/>
+      <node ref="J2" pin="15" pinfunction="Pin_15" pintype="passive"/>
+      <node ref="J2" pin="16" pinfunction="Pin_16" pintype="passive"/>
+      <node ref="J3" pin="15" pinfunction="Pin_15" pintype="passive"/>
+      <node ref="J3" pin="16" pinfunction="Pin_16" pintype="passive"/>
+      <node ref="J4" pin="15" pinfunction="Pin_15" pintype="passive"/>
+      <node ref="J4" pin="16" pinfunction="Pin_16" pintype="passive"/>
+      <node ref="J5" pin="15" pinfunction="Pin_15" pintype="passive"/>
+      <node ref="J5" pin="16" pinfunction="Pin_16" pintype="passive"/>
+      <node ref="J6" pin="15" pinfunction="Pin_15" pintype="passive"/>
+      <node ref="J6" pin="16" pinfunction="Pin_16" pintype="passive"/>
+      <node ref="J7" pin="15" pinfunction="Pin_15" pintype="passive"/>
+      <node ref="J7" pin="16" pinfunction="Pin_16" pintype="passive"/>
+      <node ref="J8" pin="15" pinfunction="Pin_15" pintype="passive"/>
+      <node ref="J8" pin="16" pinfunction="Pin_16" pintype="passive"/>
+      <node ref="J9" pin="15" pinfunction="Pin_15" pintype="passive"/>
+      <node ref="J9" pin="16" pinfunction="Pin_16" pintype="passive"/>
+    </net>
+    <net code="7" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J1" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J1" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J10" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J10" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J10" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J10" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J10" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J10" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J11" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J11" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J11" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J11" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J11" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J11" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J12" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J12" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J12" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J12" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J12" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J12" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J13" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J2" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J2" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J2" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J3" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J3" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J3" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J3" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J4" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J4" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J4" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J4" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J5" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J5" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J5" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J5" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J5" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J6" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J6" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J6" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J6" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J6" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J6" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J7" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J7" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J7" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J7" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J7" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J7" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J8" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J8" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J8" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J8" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J8" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J8" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J9" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J9" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J9" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J9" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J9" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J9" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="L6" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="LED1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="LED2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="LED3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="LED4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="9" pinfunction="Pad" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(C13-Pad1)">
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="L2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="L4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(D1-K)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="L2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="SwE" pintype="open_emitter"/>
+    </net>
+    <net code="10" name="Net-(D2-A)">
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="L5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="9" pinfunction="Pad" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(D2-K)">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="L6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="SwE" pintype="open_emitter"/>
+    </net>
+    <net code="12" name="Net-(D6-A)">
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="L3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="9" pinfunction="Pad" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(D6-K)">
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="SwE" pintype="open_emitter"/>
+    </net>
+    <net code="14" name="Net-(J14-Pin_2)">
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="J14" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="Vin" pintype="power_in"/>
+    </net>
+    <net code="15" name="Net-(J17-Pin_2)">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="J17" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="Vin" pintype="power_in"/>
+    </net>
+    <net code="16" name="Net-(J18-Pin_2)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="J18" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="Vin" pintype="power_in"/>
+    </net>
+    <net code="17" name="Net-(LED1-A)">
+      <node ref="LED1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(LED2-A)">
+      <node ref="LED2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(LED3-K)">
+      <node ref="LED3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(LED4-K)">
+      <node ref="LED4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(U1-DC)">
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="SwC" pintype="open_collector"/>
+      <node ref="U1" pin="7" pinfunction="Ipk" pintype="input"/>
+      <node ref="U1" pin="8" pinfunction="DC" pintype="open_collector"/>
+    </net>
+    <net code="22" name="Net-(U1-TC)">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="TC" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(U1-Vfb)">
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="Vfb" pintype="input"/>
+    </net>
+    <net code="24" name="Net-(U2-DC)">
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="SwC" pintype="open_collector"/>
+      <node ref="U2" pin="7" pinfunction="Ipk" pintype="input"/>
+      <node ref="U2" pin="8" pinfunction="DC" pintype="open_collector"/>
+    </net>
+    <net code="25" name="Net-(U2-TC)">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="TC" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(U2-Vfb)">
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="Vfb" pintype="input"/>
+    </net>
+    <net code="27" name="Net-(U3-DC)">
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="SwC" pintype="open_collector"/>
+      <node ref="U3" pin="7" pinfunction="Ipk" pintype="input"/>
+      <node ref="U3" pin="8" pinfunction="DC" pintype="open_collector"/>
+    </net>
+    <net code="28" name="Net-(U3-TC)">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="TC" pintype="passive"/>
+    </net>
+    <net code="29" name="Net-(U3-Vfb)">
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="Vfb" pintype="input"/>
+    </net>
+  </nets>
+</export>
