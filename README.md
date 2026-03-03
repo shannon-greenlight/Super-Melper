@@ -1,8 +1,8 @@
-# The Melper
-The Melper converts a Moog case into a powered Eurorack case.
+# The Super Melper
+The Super Melper converts a Moog case into a powered Eurorack case.
 
 It requires +12V as an input and generates -12V and +5V.
-These 3 voltage rails supply 6 Eurorack power connectors.
+These 3 voltage rails supply 12 Eurorack power connectors.
 Three LEDs monitor the supply rails.
 It is targeted to Moog cases, but can be used in any case that has +12V.
 The 12 volt wall wart that Moog supplies works well. 
@@ -22,20 +22,20 @@ The .xlsx file is the pick-and-place file. It is formatted for JLCPCB.
 The raw position files are found in the _pos_ folder.
 
 # Specs
-The Melper derives -12V and +5V from the +12V supply.
+The Melper derives two -12V outputs and +5V from the +12V supply.
 - +12V Input
 	- Range: +11.5V thru +12.5V
 	- Minimum Current: 1A
-- -12V Output
+- -12V Outputs
 	- Voltage range: -11.75V thru -12.25V
-	- Maximum current: 200mA
+	- Maximum current: 250mA each output
 	- Effeciency: 66% typ.
 	- Line regulation: 15mV
 	- Load regulation: 20mV
 	- Ripple: 230mV
-- +5V Output (see - [LM7805](https://www.ti.com/lit/ds/symlink/lm7800.pdf))
+- +5V Output
 	- Voltage range: +4.8V thru +5.2V
-	- Maximum current: 500mA @ 25C (more if heat-sink is used)
+	- Maximum current: 500mA
 	- Line regulation: 3mV typ.
 	- Load regulation: 10mV typ.
 	- Ripple rejection: 80dB typ.
