@@ -1,8 +1,7 @@
 # The Super Melper
 The Super Melper converts a Moog case into a powered Eurorack case.
 
-It requires +12V as an input and generates -12V and +5V.
-These 3 voltage rails supply 12 Eurorack power connectors.
+It requires +12V as an input and generates two -12V each powering 6 of the connectors and +5V that powers all twelve connectors.
 Three LEDs monitor the supply rails.
 It is targeted to Moog cases, but can be used in any case that has +12V.
 The 12 volt wall wart that Moog supplies works well. 
@@ -10,7 +9,7 @@ The 12 volt wall wart that Moog supplies works well.
 This repo contains the schematic and layout files needed to create the Melper.
 These files are for KiCAD Version: 8.0.8
 
-The repo contains the BOM files that are used to buy the components.
+The repo also contains the BOM files that are used to buy the components.
 These are found in the _BOM_ folder.
 The BOM files for DigiKey and JLCPCB are provided in .csv format.
 Other suppliers typically will accept these files with minor modifications.
