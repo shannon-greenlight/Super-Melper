@@ -6,7 +6,7 @@ Three LEDs monitor the supply rails.
 It is targeted to Moog cases, but can be used in any case that has +12V.
 The 12 volt wall wart that Moog supplies works well. 
 
-This repo contains the schematic and layout files needed to create the Melper.
+This repo contains the schematic and layout files needed to create the Super Melper.
 These files are for KiCAD Version: 8.0.8
 
 The repo also contains the BOM files that are used to buy the components.
@@ -21,7 +21,7 @@ The .xlsx file is the pick-and-place file. It is formatted for JLCPCB.
 The raw position files are found in the _pos_ folder.
 
 # Specs
-The Melper derives two -12V outputs and +5V from the +12V supply.
+The Super Melper derives two -12V outputs and +5V from the +12V supply.
 - +12V Input
 	- Range: +11.5V thru +12.5V
 	- Minimum Current: 1A
@@ -57,9 +57,9 @@ These procedures have been optimized for use with Digi-Key and JLCPCB. They shou
 		- This creates a .csv and an xml file. The xml file is used in the next step.
 	- Run _generate_boms.bat_
 		- This creates 3 .csv files
-			- BOM\Digi-Key\Melper_full.csv (all components)
-			- BOM\Digi-Key\Melper_split.csv (just components not found in LCSC BOM)
-			- BOM\LCSC\Melper_bom.csv (just components to be assembled by JLCPCB)
+			- BOM\Digi-Key\SuperMelper_full.csv (all components)
+			- BOM\Digi-Key\SuperMelper_split.csv (just components not found in LCSC BOM)
+			- BOM\LCSC\SuperMelper_bom.csv (just components to be assembled by JLCPCB)
 		- generate_boms.bat requires Python and the Greenface Python [libraries](https://github.com/shannon-greenlight/PYTHON_BOM) to be installed
 			- Place the Greenface Python folder in a convienient place on your computer and set the variable %plugin_dir% to point to that folder location.
 			- Python is invoked as 'py' in the batch file. This may need to be changed depending on your Python installation.
@@ -69,7 +69,7 @@ These procedures have been optimized for use with Digi-Key and JLCPCB. They shou
 		- Set the output directory to _fab\gerber\\_
 		- Make sure to Generate Drill Files
 		- Create a zip archive of the Gerber files. (This is required by JLCPCB)
-			- Use Windows Send To Compressed Folder. Rename the resulting file to melper_gerbers.zip
+			- Use Windows Send To Compressed Folder. Rename the resulting file to super_melper_gerbers.zip
 			- Alternatively, use zip_gerbers.bat
 			- zip_gerbers.bat requires 7z.exe
 			- Edit this file if 7z.exe is installed somewhere other than C:\Program Files\7-Zip
@@ -77,13 +77,13 @@ These procedures have been optimized for use with Digi-Key and JLCPCB. They shou
 		- From KiCAD PCB Editor, run File->Fabrication Outputs->Component Placement
 		- Set the output directory to _fab\pos\\_
 		- This creates the files used by the next step
-		- Update melper_cpl.xlsx
-			- melper_cpl.xlsx uses Excel Queries to convert pos\Melper-top-pos.csv into a format compatible with JLCPCB
+		- Update position_cpl.xlsx
+			- position_cpl.xlsx uses Excel Queries to convert pos\SuperMelper-top-pos.csv into a format compatible with JLCPCB
 			- Excel requires an absolute path to the source folder of the data. Edit the query to enter the path to your project.
 			- *note: This process does not produce a perfect placement file due to differences in how KiCAD and JLCPCB orient components. However, JLCPCB is able to use the file without problems. So, even if the placement looks wrong when specifying the build, they will use the file and produce correct boards.
 			- **note: There is probably a KiCAD plugin available that does a better job. The user is encouraged to try this route and report the results back.
 - Upload to JLCPCB
 	- JLCPCB requires the following files:
-		- fab\melper_gerbers.zip
-		- fab\melper_cpl.xlsx (only needed for assembly)
-		- bom\LCSC\Melper_bom.csv (only needed for assembly)
+		- fab\super_melper_gerbers.zip
+		- fab\super_melper_cpl.xlsx (only needed for assembly)
+		- bom\LCSC\SuperMelper_bom.csv (only needed for assembly)
